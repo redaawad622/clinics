@@ -1,0 +1,92 @@
+@media (max-width:767px)
+{
+    .navbar-default{
+        margin-top: -200px;
+    }
+     .navbar-nav>li
+    {
+    float: right;
+    padding-right: 0px;
+    display: block;
+    }
+   .main-link2{
+    margin-right: 0px;
+     } 
+    .navbar-nav{
+        display: grid;
+        margin-right: -50px;
+    }
+    .carousel-inner>.item>a>img,
+    .carousel-inner>.item>img,
+    .img-responsive, 
+    .thumbnail a>img,
+    .thu{
+        height: 400px;
+    }
+    .dept-div img{
+        width: 80px;
+    }
+
+    
+
+
+    
+}
+
+@media (min-width: 768px)
+{
+     .navbar-default{
+        margin-top: -200px;
+    }
+    .navbar-nav>li
+    {
+    float: right;
+    padding-right: 0px;
+    }
+   .main-link2
+    {
+      margin-right: 0px;
+    } 
+    .carousel-inner>.item>a>img,
+    .carousel-inner>.item>img,
+    .img-responsive, 
+    .thumbnail a>img,
+    .thu{
+        height: 500px;
+    }
+}
+@media (min-width:992px)
+{
+     .navbar-default{
+        margin-top: 20px;
+    }
+    .seheader img{
+        margin-left: 50px;
+    }
+    .navbar-nav>li
+    {
+    float: right;
+        padding-right: 28px;
+    }
+   .main-link2{
+    margin-right: -49px;
+       padding-right: 10px;
+       padding-left: 20px
+     }  
+    
+   
+}
+@media (min-width:1200px)
+{ 
+    .navbar-default{
+        margin-top: 20px;
+    }
+    .navbar-nav>li{
+    float: right;
+    padding-right: 30px;
+}
+   .main-link2{
+    margin-right: -44px;
+       padding-right: 2px
+     }  
+}

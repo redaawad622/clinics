@@ -1,0 +1,119 @@
+@media (max-width:767px)
+{
+    .navbar-nav>li
+    {
+        padding-left: 0px;
+    }
+    .header{
+        margin-top: 0;
+        margin-bottom: 7px;
+    }
+     
+     .dept-div img{
+        width: 80px;
+    }
+    .footer .icons{
+        width: 40px;
+        margin-bottom: 30px;
+    }
+    .text-email{
+        top: -150px;
+        left: 58px;
+        width: 200px;
+    }
+    .features{
+        margin-bottom: -165px;
+    }
+    .adverts h1,.depertment h1{
+        font-size: 20px;
+    }
+    .adverts h2{
+        font-size: 18px;
+    }
+    
+    
+}
+
+@media (min-width: 768px)
+{
+    .navbar-nav>li
+    {
+       float: left;
+       font-size: 12px;
+       padding-left: 0px;    
+     }
+    .adverts h2{
+        font-size: 20px;
+    }
+    .navbar-nav{
+        margin: auto;
+    }
+     .header{
+        margin-top: 0;
+       margin-bottom: 7px;
+    }
+    
+    
+    .div-h .d
+    {
+        width: 200px;
+    }
+    .footer .icons{
+        margin-bottom: 30px;
+    }
+}
+@media (min-width:992px)
+{
+    .navbar-nav>li
+    {
+       float: left;
+       font-size: 12px;
+       padding-left: 16px;    
+     }
+    .navbar-nav{
+        margin: auto;
+    }
+     .header{
+        margin-top:20px;
+        margin-bottom: 20px;
+    }
+    .div-h .d
+    {
+        width: 195px;
+    }
+    .text-footer{
+        margin-bottom: 20px;
+    }
+    .adverts h2{
+        font-size: 19px;
+    }
+    
+}
+@media (min-width:1200px)
+{ 
+     .navbar-nav>li
+    {
+       float: left;
+       font-size: 12px;
+        padding-left: 16px;
+        padding-right: 20px;   
+     }
+    .navbar-nav{
+        margin: auto;
+    }
+     
+     .header{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .drop-nav button#dropdownMenu1{
+        font-size: 12px;
+        padding-top: 15px;}
+    .text-footer{
+        margin-bottom: 20px
+    }
+    .adverts h2{
+        font-size: 19px;
+    }
+    
+}

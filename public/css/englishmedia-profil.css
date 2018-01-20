@@ -1,0 +1,160 @@
+@media (max-width:767px)
+{
+
+    .main-profil img{
+        height: 300px;
+    }
+    .navbar-nav>li
+    {
+        padding-left: 0px;
+    }
+    .header{
+        margin-top: -65px
+    }
+    
+     .dept-div img{
+        width: 80px;
+    }
+
+
+
+    .adverts h1,.depertment h1{
+        font-size: 20px;
+    }
+    .adverts h2{
+        font-size: 18px;
+    }
+    .main-profil div.tab{
+        
+    border: 1px solid #ccc;
+    background-color: white;
+    height: 300px;
+    }
+    .profile .header{
+        margin-top: 75px;
+    }
+    .add-img
+    {
+        display: none;
+    }
+    .profile .clinic-info .he
+    {
+        margin-left: 0;
+    }
+
+    
+    
+}
+
+@media (min-width: 768px)
+{
+
+    .main-profil div.tab{
+    border: 1px solid #ccc;
+    background-color: white;
+    height: 300px;
+    }
+
+    .adverts h1,.depertment h1{
+        font-size: 27px;
+    }
+    .navbar-nav>li
+    {
+       float: left;
+       font-size: 11px;
+       padding-left: 0px;    
+     }
+    .adverts h2{
+        font-size: 20px;
+    }
+    .navbar-nav{
+        margin: auto;
+    }
+     .header{
+        margin-top: -65px
+    }
+
+    .drop-nav button#dropdownMenu1{
+        font-size: 11px;
+        padding-top: 17px;
+    }.div-h .d
+    {
+        width: 200px;
+    }
+    .profile .header{
+        margin-top: 75px;
+    }
+    .profile .nav
+    {
+        font-size:22px ;
+    }
+    .add-img
+    {
+        height: 500px !important;
+        margin-top: 100px !important;
+    }
+
+}
+@media (min-width:991px)
+{
+    .main-profil div.tab{
+         width: 20%;
+        float: left;
+    border: 1px solid #ccc;
+    background-color: white;
+    height: 300px;
+    }
+    .navbar-nav>li
+    {
+       float: left;
+       font-size: 12px;
+       padding-left: 16px;    
+     }
+    .navbar-nav{
+        margin: auto;
+    }
+     .profile .header{
+         margin-top: 75px;
+    }
+    .div-h .d
+    {
+        width: 195px;
+    }
+
+    .adverts h2{
+        font-size: 19px;
+    }
+    
+}
+@media (min-width:1200px)
+{ 
+    .main-profil div.tab{
+        width: 20%;
+        float: left;
+    border: 1px solid #ccc;
+    background-color: white;
+    height: 300px;
+    }
+     .navbar-nav>li
+    {
+       float: left;
+       font-size: 12px;
+        padding-left: 16px;
+        padding-right: 20px;   
+     }
+    .navbar-nav{
+        margin: auto;
+    }
+
+     .header{
+        margin-top: 20px
+    }
+    .drop-nav button#dropdownMenu1{
+        font-size: 12px;
+        padding-top: 15px;}
+
+    .adverts h2{
+        font-size: 19px;
+    }
+    
+}

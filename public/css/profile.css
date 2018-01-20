@@ -1,0 +1,158 @@
+.profile .header
+{
+    text-align: center;
+}
+.profile .header h5
+{
+    color: #666;
+}
+.profile .header .image
+{
+    width: 100%;
+    text-align: center;
+
+}
+.profile .header .image img
+{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+.profile .nav
+{
+    font-size: 32px;
+    padding: 10px;
+    color: #066aab;
+    text-align: center;
+    outline: 6px solid #066aab;
+}
+
+.profile .nav li
+{
+margin-bottom: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+.profile .active
+{
+    background-color: #066aab;
+    color: white;
+}
+
+/*clinic info*/
+.profile .clinic-info
+{
+    margin-top: 50px;
+    box-shadow: -3px -2px 1px 1px #066aab;
+    padding: 10px;
+    margin-bottom: 80px;
+}
+.profile .clinic-info h2
+{
+    text-align: center;
+    color:#066aab ;
+    font-weight: 700;
+
+}
+.profile .clinic-info .he
+{
+    font-size: 28px;
+    font-weight: 700;
+    background-color:#066aab;
+    color: white;
+    padding: 5px;
+    margin-top: 50px;
+    text-align:  center;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    width: 30%;
+}
+.profile .clinic-info .address
+{
+    font-size: 25px;
+    color: #666;
+    margin-left: 109px;
+}
+.profile .clinic-info .address .vacation
+{
+    text-align: center;
+}
+/*all about doctor*/
+.profile .clinic-info .Jop
+{
+    margin-left: 201px;
+    font-size: 20px;
+    color: #666;
+    line-height: 45px;
+    border-bottom: 4px solid #066aab;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top: 3px solid #066aab;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.profile .clinic-info .Jop p
+{
+    padding: 5px;
+    padding-left: 43px;
+}
+.label
+{
+    color: #262625;
+}
+#edu,#booking
+{
+    display: none;
+}
+.exp-icon1,.exp-icon2,.exp-icon3
+{
+    display: none;
+}
+
+.p
+{
+    text-align: center;
+    padding: 5px;
+    color: #666;
+    color: white;
+    background-color: #066aabbf;
+    padding: 15px 5px 15px 5px;
+}
+
+/*rates and comments*/
+
+.rate
+{
+    position: relative;
+    bottom: 214px;
+    padding-left: 18px;
+    font-size: 30px;
+}
+.rate h6
+{
+    font-size: 34px;
+}
+.main-rate
+{
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.all-comments
+{
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.all-comments .comment
+{
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+.inp,#edit_mode_cancel
+{
+    display: none;
+}

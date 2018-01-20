@@ -1,0 +1,296 @@
+/*start css aya*/
+.main-section{
+    margin-top: 50px;
+}
+.main-section #a{
+	background-color: #00BFFF;
+	font-weight: bolder;
+	color: white;
+	height: 75px;
+
+}
+.main-section #ddd {
+    background-color: white;
+    border: 1px solid  ;
+    border-radius: 7px;
+    height: 30px !important;
+    padding-top:7px;
+    text-align: center;
+    width: 30px !important;
+    margin-top:25px;
+   padding-right:  25px;
+  
+
+}
+.main-section span{
+	margin-top: 10px;
+	padding: 10px;
+}
+.main-section ul{
+	float: right;
+	
+	margin-top: -100px;
+
+}
+.main-section li{
+	display: inline-block;
+	list-style: none;
+	padding: 15px;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.main-section h1{
+	
+	
+	 display: block;
+    height: 120px;
+    width:400px;
+    line-height: 120px;
+
+    
+
+   
+    
+    
+    cursor: pointer;
+}
+
+.main-section #ee{
+	background-color: #00BFFF;
+	color: white;
+	border-radius: 100px;
+	padding: 10px;
+	border-color: #00BFFF;
+	border: 1px solid #00BFFF;
+
+}
+
+.main-section .rep
+{
+    margin-bottom: 60px;
+}
+.main-section #eee{
+
+	color: white;
+    width: 200px;
+    background-color: #880000;
+
+
+
+}
+.main-section img{
+	width: 100px;
+	height: 100px;
+	padding: 0;
+	cursor: pointer;
+	border-radius: 50px;
+	border: 1px solid white;
+	
+
+}
+
+
+.main-section .d{
+	background-color: #00BFFF;
+}
+.main-section .navbar-form{
+	margin-top: 20px;
+}
+.main-section #f{
+	background-color: #00BFFF;
+	color: white;
+	border-radius: 25px;
+	padding: 5px;
+	border-color: #00BFFF;
+	border: 1px solid #00BFFF;
+	text-align: center;
+	width: 60px;
+	margin-left: 50px;
+	cursor: pointer;
+
+}
+
+.main-section textarea{
+	margin-top: 20px;
+
+}
+.main-section footer{
+	background-color: black;
+	box-shadow: cyan;
+}
+.main-section h4{
+	color: white;
+}
+.main-section i{
+	padding: 10px;
+}
+.main-section .replay h3{
+	font-weight: bold;
+
+	color: #000;
+
+}
+
+
+.main-section .topnav .search-container button:hover {
+  background: #ccc;
+
+}
+
+.main-section .checked {
+    color: orange;
+}
+.main-section .dd{
+	padding-top: 10px;
+	width: 30px;
+	height: 50px;
+	border-radius: 1px;
+	float: left;
+}
+.main-section #g{
+	float:left;
+	font-weight: bolder;
+}
+.main-section.dropdown-toggle{
+	color: black;
+}
+
+
+/*
+.panel-default:before
+{
+    content: '';
+    
+    
+}
+*/
+/*font Awesome http://fontawesome.io*/
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+/*Comment List styles*/
+.comment-list .row {
+  margin-bottom: 0px;
+}
+.comment-list .panel .panel-heading {
+  padding: 4px 15px;
+  position: absolute;
+  border:none;
+  /*Panel-heading border radius*/
+  border-top-right-radius:0px;
+  top: 1px;
+}
+.comment-list .panel .panel-heading.right {
+  border-right-width: 0px;
+  /*Panel-heading border radius*/
+  border-top-left-radius:0px;
+  right: 16px;
+}
+.comment-list .panel .panel-heading .panel-body {
+  padding-top: 6px;
+}
+.comment-list figcaption {
+  /*For wrapping text in thumbnail*/
+  word-wrap: break-word;
+}
+/* Portrait tablets and medium desktops */
+@media (min-width: 768px) {
+  .comment-list .arrow:after, .comment-list .arrow:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+  }
+  .comment-list .panel.arrow.left:after, .comment-list .panel.arrow.left:before {
+    border-left: 0;
+  }
+  /*****Left Arrow*****/
+  /*Outline effect style*/
+  .comment-list .panel.arrow.left:before {
+    left: 0px;
+    top: 30px;
+    /*Use boarder color of panel*/
+    border-right-color: inherit;
+    border-width: 16px;
+  }
+  /*Background color effect*/
+  .comment-list .panel.arrow.left:after {
+    left: 1px;
+    top: 31px;
+    /*Change for different outline color*/
+    border-right-color: #FFFFFF;
+    border-width: 15px;
+  }
+  /*****Right Arrow*****/
+  /*Outline effect style*/
+  .comment-list .panel.arrow.right:before {
+    right: -16px;
+    top: 30px;
+    /*Use boarder color of panel*/
+    border-left-color: inherit;
+    border-width: 16px;
+  }
+  /*Background color effect*/
+  .comment-list .panel.arrow.right:after {
+    right: -14px;
+    top: 31px;
+    /*Change for different outline color*/
+    border-left-color: #FFFFFF;
+    border-width: 15px;
+  }
+}
+.comment-list .comment-post {
+  margin-top: 6px;
+}
+
+@media(max-width:768px)
+{
+   .panel
+{
+    margin-top: 20px;
+}
+.main-section .thumbnail
+{
+    width: 120px;
+} 
+}
+.main-section .fa-arrow-up
+{
+    position: absolute;
+    left: 53px;
+    top: -31px;
+    font-size: 22px;
+    color: #555;
+}
+.main-section .col-sm-3 p
+{
+    margin-top: 20px;
+    line-height: 2;
+}
+
+
+
+/* end css aya*/
+.langu{
+    display: flex;
+    margin: 5px;
+    
+}
+.langu .img{
+    margin-right: 7px;
+    z-index: 9999999;
+    margin-top: 50px;
+     cursor: pointer;
+}
+.img{
+    margin-left: 0px
+}
+
+.depart{
+    float: right;
+}
+
+
+
